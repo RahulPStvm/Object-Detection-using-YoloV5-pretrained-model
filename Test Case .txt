@@ -1,0 +1,19 @@
+Test Case:
+Let's assume we have a directory named "test_images" containing the following images:
+
+image1.jpg
+image2.jpg
+image3.jpg
+Each of these images contains different objects, including persons, and we want to perform object detection on these images using the YOLOv5 model and save the detection results to a JSON file.
+
+Expected Behavior:
+When you run the provided code with the "test_images" directory containing the above images, the code should perform object detection on each image, extract the bounding box coordinates, and save the detection results to a JSON file named "detection_results.json".
+
+Steps:
+Create a directory named "test_images" and place the sample images (image1.jpg, image2.jpg, image3.jpg) inside it.
+Update the images_path variable in the code to point to the "test_images" directory.
+Run the code provided in the previous message with the updated images_path.
+After running the code, the detection results will be saved to a JSON file named "detection_results.json" in the same directory where the code is executed.
+
+This test case will help you verify that the code works as expected and understand how to use it with your own set of images.
+
