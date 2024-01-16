@@ -23,7 +23,7 @@ git clone https://github.com/RahulPStvm/Object-Detection-using-YoloV5-pretrained
 pip3 install -r requirements.txt
 
 # Run Program
-> python3 object_detection.py
+python3 object_detection.py
 
 
 ```
